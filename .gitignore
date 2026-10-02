@@ -1,0 +1,41 @@
+# Agent context
+AGENTS.md
+.agent/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Java and build outputs
+target/
+build/
+.gradle/
+.classpath
+.project
+.settings/
+
+# Local analysis, datasets, and run artifacts
+codeql-db/
+codeql-databases/
+datasets/
+runs/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
